@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <!-- remix icon cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- animated css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+
+<body>
+    <!-- header -->
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+            <div class="container">
+                <div class="header-logo"><a class="navbar-brand" href="#"><img src="./MMS.png" alt=""
+                            class="w-100 h-100 animate__animated animate__heartBeat"></a></div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-4 fs-5">
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="index.html">Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="registration.html">Registration</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="my_events.html">Make My Event</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Feature & Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Support</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="login_form.html">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="signup.html">Create Profile</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+ <!-- login section -->
+    <section class="logic-section py-3">
+        <div class="login-wrapper bg-white py-4">
+            <div class="login-logo mb-3"><a class="navbar-brand" href="#"><img src="./MMS.png" alt=""
+                class="w-100 h-100 animate__animated animate__heartBeat"></a></div>
+            <h2 class="login-heading text-dark fs-3 fw-bold">Login Form</h2>
+            <div class="login-form mt-3">
+                <a href="login_form.html" class="text-decoration-none text-white login">Login</a>
+                <a href="signup.html" class="text-decoration-none text-dark ">Signup</a>
+            </div>
+
+            <div class="user-data pt-4">
+                <form action="">
+                    <input type="email" placeholder="Email Address" class="form-control mb-3">
+                    <input type="password" placeholder="Password" class="form-control mb-2">
+                    <a href="#" class="text-decoration-none" class="">Forget Password?</a>
+
+                    <div class="text-center">
+                        <button class="text-center login-btn mt-3 mb-2">Login</button>
+                        <small class="text-center">Create a profile?<a href="#" class="text-decoration-none">Sign
+                                Up</a></small>
+                    </div>
+                </form>
+            </div>
+
+            <div class="social_media_login_form">
+                <p class="text-center mt-1">Or Login Using</p>
+                <div class="social_media_icon d-flex gap-5 mt-3">
+                     <a href="#"><img src="./facebook_icon.png" alt="facebook_icon"></a>
+                     <a href="#"><img src="./google_icon.png" alt="google_icon"></a>
+                     <a href="#"><img src="./whatsapp_icon.png" alt="whatsapp_icon"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- footer start here -->
+    <footer class="w-100 pt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <h3 class="text-white ">MMS is Product of: <br>
+                        <span class="text-uppercase fw-bold fs-1">SKL Global Sports USA</span>
+                    </h3>
+                </div>
+
+
+
+                <div class="col-4 text-white px-2">
+                    <h3>Important Links</h3>
+                    <div class="pt-1">
+                        <ul class="d-flex flex-column gap-2">
+                            <li><a href="about.html" class="text-decoration-none text-white">About Us</a></li>
+                            <li>Privacy Policy</li>
+                            <li>Terms and Condition</li>
+                            <li>Support</li>
+                            <li>Cancelation</li>
+                            <li>Refund Policy</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="col-4 text-white ">
+                    <h3>Contact Us</h3>
+                    <div class="pt-1">
+                        <p> US: 4400 Central Ave (415) Fremont-94536, CA, USA</p>
+                        <p>India: 176/15 RAJ HOUSE, Laxmi Nagar, Meham Rd. Gohana-131301, Sonipat, Haryana</p>
+                        <p>Write Us: <a href="#" class="text-warning">info@makemyevents.org</a></p>
+                    </div>
+                    <!-- social media -->
+                    <div class="d-flex gap-4">
+                        <a href="#" class="text-decoration-none text-white fs-2"><i class="ri-facebook-fill"></i></a>
+                        <a href="#" class="text-decoration-none text-white fs-2"><i class="ri-twitter-line"></i></a>
+                        <a href="#" class="text-decoration-none text-white fs-2"><i class="ri-instagram-line"></i></a>
+                        <a href="#" class="text-decoration-none text-white fs-2"><i class="ri-youtube-line"></i></a>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+
+            <p class="text-white text-center pb-2 pt-3 m-0">© SKL Global Sports USA</p>
+        </div>
+    </footer>
+
+
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script src="index.js"></script>
+</body>
+
+
+</html>

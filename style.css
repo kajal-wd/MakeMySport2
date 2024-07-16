@@ -1,0 +1,1539 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Teko:wght@300..700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif !important;
+
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.wrapper {
+    background: linear-gradient(rgba(255, 255, 255, 0.937), rgba(255, 255, 255, 0.68)), url(./event-bg.jpeg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: repeat;
+}
+
+.item p {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+header {
+    font-family: "Teko", sans-serif !important;
+    font-weight: 200;
+}
+
+
+.header-logo a img {
+    width: 180px !important;
+}
+
+.nav-item a {
+    color: white !important;
+    font-size: 18px;
+}
+
+.nav-link {
+    font-size: 23px !important;
+}
+
+.event-selection-active {
+    background-color: #70d945 !important;
+}
+
+.event-selection-upcoming-btn {
+    width: 50%;
+    padding: 2px 10px;
+    border-radius: 10px 0px 0px 10px;
+    color: black !important;
+    font-weight: 600;
+    text-align: center;
+    background-color: #afd8e9;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.event-selection-past-btn {
+    width: 50%;
+    padding: 2px 10px;
+    border-radius: 0px 10px 10px 0px;
+    color: black !important;
+    font-weight: 600;
+    text-align: center;
+    background-color: #afd8e9;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.input-box {
+    position: relative;
+}
+
+.form-control:focus {
+    box-shadow: none !important;
+}
+
+.form-submit {
+    background-color: #428bca;
+    color: white;
+}
+
+.wrapper .form-control {
+    border: 2px solid transparent !important;
+    background-color: rgba(0, 0, 0, 0.112) !important;
+    border-image: linear-gradient(to right, #3a7c99, #6fd945cc) !important;
+    border-image-slice: 1 !important;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+
+}
+
+.form-reset {
+    background-color: #5bc0de;
+    color: white;
+}
+
+.event-card {
+    background-color: #afd8e9;
+}
+
+.sport-img img {
+    border-radius: 10px !important;
+    width: 115px !important;
+    height: 115px !important;
+    object-fit: cover;
+    object-position: top;
+}
+
+.register-box {
+    border-radius: 15px !important;
+    background-color: #00b3fe;
+}
+
+footer {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.696), rgba(0, 0, 0, 0.696)), url(./footer-bg.jpeg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.footer-logo {
+    width: 173px !important;
+    filter: drop-shadow(4px 4px 10px white);
+}
+
+footer p {
+    font-size: 15px !important;
+}
+
+.client-slider img {
+    width: 120px !important;
+    height: 120px;
+    object-fit: contain;
+}
+
+
+.time-left {
+    background-color: #70d945;
+}
+
+.footer-heading h2 {
+    font-weight: 300 !important;
+}
+
+.owl-carousel {
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: linear-gradient(rgba(128, 128, 128, 0.694), white);
+    border-color: transparent;
+}
+
+.owl-item,
+.owl-stage-outer {
+    height: 100% !important;
+}
+
+.owl-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.owl-item img {
+    height: 80px;
+    width: 80px !important;
+    object-fit: contain;
+    object-position: center;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0 0 10px #5bc0de;
+}
+
+.owl-stage {
+    height: 100%;
+}
+
+.banner-container {
+    height: 300px;
+    padding: 30px;
+}
+
+.banner-container img {
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 30px !important;
+
+}
+
+.about-heading {
+    font-size: 10vmin;
+    font-weight: 700;
+    color: #3a7c99;
+}
+
+.left-about-content {
+    line-height: 35px;
+    font-size: 25px;
+    position: relative;
+}
+
+.left-about-content h2 {
+
+    font-size: 4vmin !important;
+    padding-left: 30px;
+}
+
+.left-about-content h2::before {    
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 60px;
+    background-color: #3a7c99;
+    left: 15px;
+    top: -10px;
+}
+
+.right-content-about img {
+    box-shadow: 15px 15px 0px rgb(186, 185, 185) !important;
+    border-radius: 5px;
+}
+
+.sports {
+    color: #3a7c99;
+}
+
+
+/* about section start*/
+.about-bannner {
+    width: 100%;
+    height: 350px;
+    background: linear-gradient(rgba(0, 0, 0, 0.701), rgba(0, 0, 0, 0.18)), url(./images/about-bg.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-bannner h1 {
+    font-size: 15vmin;
+    font-weight: 800;
+    color: white;
+    font-family: "Teko", sans-serif !important;
+}
+
+.breadcrumb {
+    font-family: "Teko", sans-serif !important;
+    font-size: 25px;
+    position: absolute;
+    right: 50px;
+    bottom: 0;
+}
+
+.breadcrumb-admin {
+    font-family: "Teko", sans-serif !important;
+    font-size: 25px;
+}
+
+.about-wrapper {
+    position: relative;
+}
+
+.breadcrumb-span {
+    color: #00B3FE;
+}
+
+.make-my-sport {
+    padding: 50px 0;
+    min-height: 110vh;
+}
+
+.left-img-wrapper {
+    width: 600px;
+    height: 500px;
+    position: relative;
+}
+
+.sport-1 {
+    position: absolute;
+    width: 46%;
+}
+
+.sport-2 {
+    position: absolute;
+    top: 13%;
+    right: 8%;
+    z-index: 99;
+    width: 46%;
+}
+
+.sport-3 {
+    position: absolute;
+    top: 65%;
+    left: 10%;
+    width: 46%;
+}
+
+.stripe-bg-green {
+    position: absolute;
+    width: 40%;
+    height: 40%;
+    background-color: #70D945;
+    top: 19%;
+    z-index: -1;
+    left: -20px;
+    background: repeating-linear-gradient(-45deg,
+            #ffffff,
+            #ffffff 10px,
+            #70D945 10px,
+            #70D945 20px
+            /* Adjust color and width as needed */
+        );
+}
+
+.stripe-bg-blue {
+    position: absolute;
+    width: 40%;
+    height: 40%;
+    background-color: #00B3FE;
+    top: 93%;
+    left: 19%;
+    z-index: -1;
+    background: repeating-linear-gradient(-45deg,
+            #ffffff,
+            #ffffff 10px,
+            #00B3FE 10px,
+            #00B3FE 20px
+            /* Adjust color and width as needed */
+        );
+}
+
+.make-my-sport-heading {
+    color: red;
+    font-family: "Teko", sans-serif !important;
+}
+
+.mms {
+    font-size: 125px !important;
+    font-family: "Teko", sans-serif !important;
+    position: relative;
+    margin-left: -5px;
+    font-weight: 800 !important;
+    line-height: 0.7 !important;
+}
+
+.first-M {
+    color: #70D945;
+}
+
+.second-M {
+    color: #00B3FE;
+}
+
+.s {
+    color: red;
+}
+
+.head {
+    position: relative;
+    padding-left: 20px;
+}
+
+.head::before {
+    content: "";
+    width: 4px;
+    height: 80%;
+    background-color: black;
+    position: absolute;
+    left: 0;
+    top: 5px;
+}
+
+.make-my-first-right {
+    padding-top: 100px !important;
+}
+
+.what-para {
+    color: #00B3FE;
+}
+
+.what-we-do-head,
+.mv-head {
+    font-size: 6vmin;
+    font-family: "Teko", sans-serif !important;
+    position: relative;
+}
+
+.what-we-do {
+    background: linear-gradient(rgba(128, 128, 128, 0.098), rgba(128, 128, 128, 0.107));
+}
+
+.what-we-do-head::after {
+    content: "";
+    width: 30%;
+    height: 3px;
+    position: absolute;
+    background-color: #00B3FE;
+    bottom: 20px;
+    margin-left: 10px;
+}
+
+
+
+.tournament-heading {
+    color: #00B3FE;
+    font-weight: 500;
+    font-family: "Teko", sans-serif !important;
+    font-size: 6vmin;
+}
+
+.ri-arrow-right-double-line {
+    color: #00B3FE;
+    font-size: 24px;
+}
+
+.myt-list {
+    font-size: 18px;
+}
+
+.myt-para {
+    font-size: 18px;
+    /* font-weight:500; */
+}
+
+.big-list {
+    margin-top: -14px;
+}
+
+.what-we-do-img {
+    object-fit: cover;
+    object-position: center;
+    height: 660px !important;
+}
+
+.tournament-heading-2 {
+    color: #70D945;
+    font-weight: 500;
+    font-family: "Teko", sans-serif !important;
+    font-size: 6vmin;
+}
+
+.myt-list-green {
+    font-size: 18px;
+}
+
+.myt-list-green i {
+    color: #70D945;
+}
+
+.discover-ticket {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.792), rgba(255, 255, 255, 0.178)), url(./images/discover-ticket.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.discover-ticket p {
+    font-size: 18px;
+}
+
+.discover-heading,
+.ticket-heading {
+    color: white;
+    font-weight: 500;
+    font-family: "Teko", sans-serif !important;
+    font-size: 4vmin;
+}
+
+.advertisement h3 {
+    font-family: "Teko", sans-serif !important;
+    color: white;
+    font-weight: 800;
+    font-size: 8vmin;
+}
+
+.advertisement {
+    position: relative;
+    background: linear-gradient(#00b2fea5, #6fd9458c);
+}
+
+.advertisement img {
+    position: absolute;
+    top: -10px;
+    right: -20px;
+    border-radius: 50%;
+    border: 10px solid white;
+}
+
+.event {
+    color: #70D945 !important;
+}
+
+.calender {
+    width: 32px;
+    color: #70D945;
+}
+
+.ticket {
+    color: #00B3FE;
+}
+
+.ticket-img {
+    width: 32px;
+    color: #00B3FE;
+}
+
+.line {
+    width: 4px;
+    height: 550px;
+    background-color: white;
+}
+
+.mv-para {
+    color: #70D945;
+}
+
+.mv-head {
+    position: relative;
+}
+
+.mv-head::after {
+    content: "";
+    width: 30%;
+    height: 3px;
+    position: absolute;
+    background-color: #70D945;
+    bottom: 20px;
+    margin-left: 10px;
+}
+
+.mission-vision {
+    margin-top: 120px;
+}
+
+.mission-para,
+.vision-para {
+    font-size: 18px;
+}
+
+.mission-head {
+    color: #70D945;
+    font-size: 40px;
+}
+
+.mission-icon {
+    background: radial-gradient(#6fd945d9, rgba(255, 255, 255, 0));
+    border-radius: 50%;
+}
+
+.vision-head {
+    color: #00B3FE;
+    font-size: 40px;
+}
+
+.vision-icon {
+    background: radial-gradient(#00b2fedc, white);
+    border-radius: 50%;
+}
+
+.img-container {
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+
+.circle-img {
+    object-fit: contain;
+    object-position: center;
+    z-index: 99;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.circle1 {
+    width: 100%;
+    height: 100%;
+    background-color: #70D945;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0px;
+    left: -20px;
+    top: 30px;
+    border: 15px solid white;
+    z-index: 3;
+}
+
+.circle2 {
+    width: 90%;
+    height: 90%;
+    background-color: #E32027;
+    border-radius: 50%;
+    position: absolute;
+    top: -25px;
+    left: 20px;
+    z-index: 2;
+}
+
+.circle3 {
+    width: 110%;
+    height: 110%;
+    background-color: #00B3FE;
+    border-radius: 50%;
+    position: absolute;
+    top: -30px;
+    left: -50px;
+    z-index: 1;
+}
+
+.team {
+    margin-top: 120px;
+}
+
+.team-head {
+    font-size: 6vmin;
+    font-family: "Teko", sans-serif !important;
+    position: relative;
+}
+
+.team-head::after {
+    content: "";
+    width: 30%;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    bottom: 20px;
+    margin-left: 10px;
+}
+
+.team-span {
+    color: #E32027;
+}
+
+.team-container {
+    width: 300px;
+    height: 500px;
+    position: relative;
+}
+
+.team-member {
+    object-fit: cover;
+    object-position: center;
+}
+
+.outer-line {
+    width: 100%;
+    height: 100%;
+    border: 3px solid #70D945;
+    border-radius: 10px;
+    position: absolute;
+    left: -20px;
+    top: 20px;
+    z-index: -1;
+}
+
+.outer-line-blue {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    position: absolute;
+    left: -20px;
+    top: 20px;
+    z-index: -1;
+    border: 3px solid #00B3FE;
+}
+
+.team-member-tag {
+    width: 60px;
+    height: 50%;
+    background-color: black;
+    position: absolute;
+    top: -30px;
+    right: -25px;
+    color: white;
+    padding-top: 40px;
+    border: 5px solid white;
+}
+
+.team-member-tag h6 {
+    rotate: 90deg;
+    text-wrap: nowrap;
+    font-family: "Teko", sans-serif !important;
+    font-size: 3vmin;
+}
+
+.team-description {
+    font-size: 18px;
+}
+
+.team-description i {
+    font-size: 24px;
+    margin-right: 5px;
+    font-weight: 800;
+    color: black;
+}
+
+.team-img-div {
+    padding-left: 100px !important;
+}
+
+.team-content {
+    padding-top: 100px;
+}
+
+.team2-tag {
+    padding-top: 70px !important;
+}
+
+.team {
+    background: linear-gradient(#00b2fe12 30%, #00b2fe00);
+}
+
+.team-font {
+    font-size: 18px;
+    color: rgb(40, 39, 39);
+    line-height: 1.6;
+}
+
+.ri-double-quotes-r,
+.ri-double-quotes-l {
+    font-size: 22px;
+}
+
+.quote-1 {
+    color: #70D945;
+}
+
+.quote-2 {
+    color: #00B3FE;
+}
+
+.long-para {
+    width: 250px;
+}
+
+@media (max-width:992px) {
+
+    .left-img-wrapper {
+        width: 100%;
+    }
+
+    .sport-1 {
+        position: absolute;
+        width: 53%;
+    }
+
+    .sport-2 {
+        position: absolute;
+        top: 13%;
+        right: 0%;
+        z-index: 99;
+        width: 50%;
+    }
+
+    .sport-3 {
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        width: 53%;
+
+    }
+
+    .stripe-bg-blue {
+        position: absolute;
+        width: 40%;
+        height: 29%;
+        background-color: #00B3FE;
+        top: 70%;
+        left: 28%;
+        z-index: -1;
+        background: repeating-linear-gradient(-45deg, #ffffff, #ffffff 10px, #00B3FE 10px, #00B3FE 20px
+                /* Adjust color and width as needed */
+            );
+    }
+
+    .stripe-bg-green {
+        position: absolute;
+        width: 45%;
+        height: 35%;
+        background-color: #70D945;
+        top: 8%;
+        z-index: -1;
+        left: -20px;
+        background: repeating-linear-gradient(-45deg, #ffffff, #ffffff 10px, #70D945 10px, #70D945 20px
+                /* Adjust color and width as needed */
+            );
+    }
+
+    .make-my-first-right {
+        padding-top: 30px !important;
+    }
+
+
+    .mission-vision {
+        margin-top: 47px;
+    }
+
+    .team-img-div {
+        padding-left: 48px !important;
+    }
+
+    .long-para {
+        width: 100% !important;
+    }
+}
+
+.dashboard {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: 100px 1fr;
+    gap: 10px;
+    background-color: #F4F4F9 !important;
+    padding-right: 10px;
+}
+
+aside {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    border-radius: 0 100px 0 0;
+    font-family: "Poppins", sans-serif !important;
+    overflow-y: scroll;
+    position: fixed;
+    height: 100vh;
+}
+
+aside nav{
+    padding-bottom: 150px !important;
+}
+
+aside::-webkit-scrollbar {
+    display: none;
+}
+
+
+header {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    border-radius: 0 0 50px 50px;
+}
+
+main {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    border-radius: 50px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    padding-bottom: 37px;
+}
+.footer-section{
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}
+.company-logo img {
+    width: 100px;
+    height: 100px;
+    box-shadow: 3px 3px 0 red;
+    border-radius: 50%;
+}
+
+.side-bar-nav ul li {
+    list-style-type: none;
+    font-family: "Poppins", sans-serif !important;
+    font-size: 20px;
+    padding: 20px;
+    border-left: 6px solid transparent;
+}
+
+.side-bar-nav ul ul li {
+    padding: 10px;
+}
+
+.side-bar-nav ul ul li:hover{
+    background: linear-gradient(white,#70D945);
+}
+
+.side-bar-nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.side-bar-selected-active {
+    background-color: #F4F4F9 !important;
+    border-color: #70D945 !important;
+}
+
+.dropdown-nav {
+    position: relative;
+    transition: 1s all ease-in-out;
+}
+
+.dropdown-nav ul {
+    transition: 1s all ease-in-out;
+}
+
+.dropdown-icon {
+    position: absolute;
+    right: 20px;
+    top: 12px;
+}
+
+.user-data-icon {
+    background-color: #00B3FE;
+    padding: 2px 10px 5px 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.side-bar-selected-active a span {
+    background-color: #70D945;
+}
+
+.user-data-icon img {
+    width: 20px;
+}
+
+.side-bar-nav ul li:hover .span {
+    background-color: #70D945;
+}
+
+.side-bar-nav ul li:hover {
+    border-color: #70D945 !important;
+}
+
+.adding-event-club-profile {
+    font-family: "Teko", sans-serif !important;
+    font-size: 55px;
+    padding-top: 20px;
+
+}
+
+.add-event a,
+.add-club a,
+.add-profile a {
+    padding: 0 10px;
+    border-radius: 20px;
+    font-size: 30px;
+    text-decoration: none;
+    display: block;
+}
+
+.add-event a {
+    border: 2px solid green;
+    color: green !important;
+}
+
+.add-club a {
+    border: 2px solid red;
+    color: red !important;
+}
+
+.add-profile a {
+    border: 2px solid #00B3FE;
+    color: #00B3FE !important;
+}
+
+.breadcrumb {
+    font-family: "Teko", sans-serif !important;
+}
+
+.breadcrumb-span {
+    color: #00B3FE
+}
+
+.edit-profile-heading {
+    background: linear-gradient(to right, #70D945, white);
+    height: 90px;
+}
+
+.edit-profile-heading h3 {
+    font-family: "Poppins", sans-serif !important;
+}
+
+main input,
+main select {
+
+    height: 50px;
+}
+
+form span {
+    color: red !important;
+}
+
+.file-upload {
+    padding: 12px !important;
+}
+
+.update-btn button {
+    padding: 5px 15px;
+    background-color: #00B3FE;
+    border-color: transparent;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.registration-type h4 {
+    font-family: "Teko", sans-serif !important;
+    color: white;
+}
+
+.registration-type {
+
+    text-align: center;
+    position: relative;
+    width: 80%;
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 6px 6px 0 black;
+}
+
+.athele {
+    background-color: #00B3FE;
+}
+
+.refere {
+    background-color: red;
+}
+
+.coach {
+    background-color: #70D945;
+}
+
+.other {
+    background-color: #C3C3C3;
+}
+
+.img-registration {
+    height: 100%;
+    width: 66px;
+    display: inline;
+}
+
+.user-data-img {
+    position: absolute;
+    top: 32%;
+    width: 42px;
+    left: 23px;
+}
+
+.user-data-img-shadow {
+    position: absolute;
+    top: 36%;
+    left: 18%;
+    opacity: 0.2;
+    width: 42px;
+}
+
+
+.event-type-name {
+    background-color: #70D945;
+    font-family: "Teko", sans-serif !important;
+    text-align: center;
+    font-size: 20px;
+}
+
+.event-type-name-active {
+    background-color: #00B3FE;
+}
+
+.event-type-name-one {
+    border-radius: 30px 0 0 30px;
+}
+
+.event-type-name-three {
+    border-radius: 0 30px 30px 0;
+}
+
+.my-events-form {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+
+.my-events-form select,
+.medical-check-form select {
+    height: 40px;
+}
+
+.my-events-form .form-submit,
+.medical-check-form .form-submit {
+    background-color: #70D945;
+    color: white;
+    border-radius: 0px !important;
+    font-family: "Teko", sans-serif !important;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.my-events-form .form-reset,
+.medical-check-form .form-reset {
+    background-color: #00B3FE;
+    color: white;
+    border-radius: 0px !important;
+    font-family: "Teko", sans-serif !important;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+table td button {
+    width: 200px;
+    padding: 10px;
+    text-wrap: nowrap;
+    margin: 10px;
+}
+
+.tag-name {
+    border: 3px solid #198754;
+    color: #198754 !important;
+    font-family: "Teko", sans-serif !important;
+    font-size: 20px;
+}
+
+.register-top a {
+    background-color: #198754;
+    font-family: "Teko", sans-serif !important;
+    font-size: 20px;
+}
+
+.medical-check-form {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+}
+
+.logic-section {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.863), rgba(255, 255, 255, 0.822)), url(./event-bg.jpeg);
+    height: auto;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-section{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.55), rgba(255, 255, 255, 0.55)), url(./event-bg.jpeg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-wrapper {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 100px rgb(132, 130, 130);
+    border-radius: 10px;
+}
+
+.login-heading {
+    font-family: "Poppins", sans-serif !important;
+    position: relative;
+}
+
+.login-heading::before {
+    content: "";
+    position: absolute;
+    width: 35px;
+    height: 4px;
+    bottom: 2px;
+    background-color: #70D945;
+}
+
+.login-form .login {
+    background: linear-gradient(#428BCA, #000000);
+    border-radius: 8px;
+}
+
+.login-form .signup {
+    background: linear-gradient(#428BCA, #000000);
+    border-radius: 8px;
+}
+
+.login-form {
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.login-form a {
+    padding: 5px 40px;
+    display: block;
+}
+
+.user-data{
+    width: 80% !important;
+}
+
+.user-data input{
+    padding: 10px;
+    box-shadow: 0 5px 20px rgb(215, 212, 212);
+}
+
+.login-btn{
+    width: 100% !important;
+    background: linear-gradient(#428BCA, #000000);
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
+
+.login-logo img{
+    width: 140px !important;
+}
+
+.signup-wrapper select{
+    box-shadow: 0 5px 20px rgb(215, 212, 212);
+    padding: 10px;
+}
+
+
+.modal-dialog {
+   max-width:650px !important;
+   max-height: 650px !important;
+}
+
+.payment-option{
+    border-radius: 20px;
+    position: relative;
+    height: 260px;
+}
+
+.current-balance{
+    background:linear-gradient(#00B3FE , rgba(228, 226, 226, 0.731));
+}
+
+.auto-refill{
+    background:linear-gradient(red , rgba(228, 226, 226, 0.731));
+}
+
+.current-balance-icon{
+    font-size: 50px;
+    position: absolute;
+    background-color: #00B3FE;
+    padding: 0 14px;
+    border-radius: 50%;
+    color: white;
+    top:-40px;
+    border: 10px solid white;
+}
+
+.auto-refill-icon{
+    font-size: 50px;
+    position: absolute;
+    background-color:red;
+    padding: 0 14px;
+    border-radius: 50%;
+    color: white;
+    top:-40px;
+    border: 10px solid white;
+}
+
+.shop{
+    background:linear-gradient(#70D945 , rgba(228, 226, 226, 0.731));
+}
+
+.shop-icon{
+    font-size: 50px;
+    position: absolute;
+    padding: 0 14px;
+    border-radius: 50%;
+    color: white;
+    top:-40px;
+    border: 10px solid white;
+    background-color: #70D945;
+}
+
+.payment-option a{
+    border-radius: 10px !important;
+}
+
+
+.edit-profile-content span{
+    color: transparent;
+    background:linear-gradient(to right , #70D945 , #00B3FE);
+    background-clip:text;
+}
+
+.bank-details-content i{
+    color:#70D945;
+}
+
+.event-option{
+    width: 300px !important;
+}
+
+.advertise{
+    background-color: #00B3FE;
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.advertise a{
+    font-size:30px;
+    font-family: "Teko", sans-serif !important;
+}
+
+.advertise i{
+    color:white;
+    font-size: 30px;
+}
+
+.host{
+    background-color: red !important;
+}
+
+.event-option-content , .registration-main-content{
+    width: 100%;
+    background:linear-gradient(rgba(255, 255, 255, 0.769) , rgba(255, 255, 255, 0.683)), url(event-bg.jpeg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+
+.change-password-main-content , .bank-details-main-content , .my-payment-main-content{
+    width: 100%;
+    background:linear-gradient(rgba(255, 255, 255, 0.932) , rgba(255, 255, 255, 0.932)), url(event-bg.jpeg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+
+.late-fees-checkbox{
+    height: 27px;
+    width: 25px;
+    display: block;
+    margin-top: 10px;
+}
+
+.download-pdf-btn{
+    background-color: #70D945 !important;
+    margin-left: 48px;
+}
+
+.plan-box{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.inner-plan-box{
+    height: 80%;
+    border-radius: 40% 40% 0px 0px;
+    position: relative;
+}
+
+.inner-plan-box .coin-icon{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: 35%;
+    top:-40px;
+    border-radius: 50%;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner-plan-box .coin-icon i{
+        font-size: 70px;
+}
+
+/* dashboard start here */
+.topmost-team-banner{
+    width: 100%;
+    height: 350px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.233) , rgba(0, 0, 0, 0.228)) , url(./images/banner_team_img.png);
+    background-position:top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.topmost-team-banner h2{
+    position: absolute;
+    left: 30%;
+    bottom:10%;
+    font-family: "Teko", sans-serif !important;
+    font-size: 50px;
+}
+
+.circle-logo-wrapper{
+    position: absolute;
+    top: 185px;
+    left: 270px;
+}
+
+.circle-logo{
+   width: 220px;
+   height: 220px;
+   position: relative;
+}
+
+.circle-logo .company-logo{
+    border-radius: 50%;
+    box-shadow:-10px 10px 0 black;
+}
+
+.camera-wrapper{
+    position: absolute;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    top: -3%;
+    right: 10%;
+    box-shadow: 3px 3px 3px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.camera{
+    cursor: pointer;
+}
+
+.account-heading{
+    font-family: "Teko", sans-serif !important;
+    font-size: 50px;
+    text-align: end;
+    font-weight: 700;
+}
+
+.events-name{
+    font-family: "Teko", sans-serif !important;
+}
+
+.events-name h2{
+    padding: 8px 10px;
+    background:linear-gradient(#ED1F27 , #817C7C);
+    text-align: center;
+    border: 3px solid white;
+    border-radius: 20px;
+    box-shadow: 0px 15px 0 black;
+    color: white;
+}
+
+.main-dashboard .adding-event-club-profile{
+    font-family: "Teko", sans-serif !important;
+    font-size: 55px;
+    padding-top: 60px;
+}
+
+.main-dashboard .add-event h3 , .main-dashboard .add-club h3, .main-dashboard .add-profile h3{
+    padding: 10px 10px;
+    border-radius: 20px;
+    font-size: 30px;
+}
+
+/* .main-dashboard .add-event h3{
+    border: 2px solid green;
+    color: green;
+} */
+
+/* .main-dashboard .add-club h3{
+    border: 2px solid red;
+    color: red;
+} */
+
+/* .main-dashboard .add-profile h3{
+    border: 2px solid  #00B3FE;
+    color: #00B3FE;
+} */
+
+.main-dashboard .data-box{
+    width: 100%;
+    height: 70px;
+    background-color: #70d945;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px black;
+    text-align: center;
+}
+
+.main-dashboard .data-box-red{
+    width: 100%;
+    height: 70px;
+    background-color: #00B3FE;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px black;
+    text-align: center;
+}
+
+.main-dashboard .img-container{
+    height: 100%;
+    width: 66px;
+    display: inline;
+}
+
+.main-dashboard  .user-data-img{
+    position: absolute;
+    top: 22%;
+    width:28px;
+}
+
+.main-dashboard .user-data-img-shadow{
+    position: absolute;
+    top: 35%;
+    left: 60%;
+    opacity: 0.2;
+    width:28px;
+}
+
+.main-dashboard .dropdown-toggle::after {
+    font-size: 20px;
+    color: white !important;
+}

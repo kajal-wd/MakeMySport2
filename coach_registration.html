@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coach Registration</title>
+    <!-- remix icon cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- animated css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+
+    <body>
+        <!-- header -->
+        <header class="sticky-top">
+            <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+                <div class="container">
+                    <div class="header-logo"><a class="navbar-brand" href="#"><img src="./MMS.png" alt=""
+                                class="w-100 h-100 animate__animated animate__heartBeat"></a></div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-4 fs-5">
+                            <li class="nav-item">
+                                <a class="nav-link " aria-current="page" href="index.html">Events</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="registration.html">Registration</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="my_events.html">Make My Event</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Feature & Pricing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Support</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="login_form.html">Login</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Create Profile</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <section class="dashboard">
+
+            <header class="bg-white">
+                <div class="row adding-event-club-profile ">
+                    <div class="col-4 add-event px-5">
+                        <a class="text-center m-0" href="#"><i class="ri-add-line me-2 fw-bold"></i>ADD NEW EVENT</a>
+                    </div>
+                    <div class="col-4  add-club px-5">
+                        <a class="text-center m-0" href="#"><i class="ri-add-line me-2 fw-bold"></i>ADD MY CLUB</a>
+                    </div>
+                    <div class="col-4  add-profile px-5">
+                        <a class="text-center m-0" href="#"><i class="ri-add-line me-2 fw-bold"></i>ADD MY PROFILE</a>
+                    </div>
+                </div>
+            </header>
+
+            <aside class="bg-white pt-3">
+                <div class="company-logo d-flex flex-column justify-content-center align-items-center">
+                    <img src="./company logo 1.png" alt="logo">
+                    <h3 class="fs-4 pt-3">Hi, International .....</h3>
+                </div>
+
+                <div class="sidebar-nav-wrapper pt-4">
+                    <nav class="side-bar-nav">
+                        <ul class="m-0 p-0">
+                            <li class=" dropdown-nav" onclick="listOpenUserData()">
+
+                                <a href="#"><span class="user-data-icon span"><img src="./images/user.png"
+                                            alt=""></span>My
+                                    User Data<i class="ri-arrow-drop-right-line dropdown-icon fs-2 "></i></a>
+                                <ul class="d-none pt-3">
+                                    <li><a href="edit-profile.html">Profile Edit</a></li>
+                                    <li><a href="changepassword.html">Change Password</a></li>
+                                    <li><a href="bank_details.html">Update Bank Details</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="#"><span class="user-data-icon span"><img src="./images/club.png"
+                                            alt=""></span>My
+                                    Club Data</a>
+                            </li>
+
+                            <li>
+                                <a href="my_events.html"><span class="user-data-icon span"><img
+                                            src="./images/flag-usa.png" alt=""></span>My Events</a>
+                            </li>
+                            <li class="side-bar-selected-active">
+                                <a href="registration.html"><span class="user-data-icon span"><img
+                                            src="./images/registration.png" alt=""></span>Registration</a>
+                            </li>
+                            <li>
+                                <a href="#"><span class="user-data-icon span"><img src="./images/Vips.png"
+                                            alt=""></span>My
+                                    VIPs</a>
+                            </li>
+                            <li>
+                                <a href="#"><span class="user-data-icon span"><img src="./images/waiting-list.png"
+                                            alt=""></span>Waiting List</a>
+                            </li>
+                            <li>
+                                <a href="brackets.html"><span class="user-data-icon span"><img
+                                            src="./images/brackets.png" alt=""></span>Brackets</a>
+                            </li>
+                            <li>
+                                <a href="weight_check.html"><span class="user-data-icon span"><img
+                                            src="./images/weight-check.png" alt=""></span>Weight Check</a>
+                            </li>
+                            <li>
+                                <a href="medical_check.html"><span class="user-data-icon span"><img
+                                            src="./images/medical.png" alt=""></span>Medical Check</a>
+                            </li>
+                            <li>
+                                <a href="#"><span class="user-data-icon span"><img src="./images/invoice.png"
+                                            alt=""></span>Invoice</a>
+                            </li>
+                            <li>
+                                <a href="#"><span class="user-data-icon span"><img src="./images/result.png"
+                                            alt=""></span>Results</a>
+                            </li>
+                            <li class="dropdown-nav" onclick="listOpenpayment()">
+                                <a href="#"><span class="user-data-icon span"><img src="./images/payments.png"
+                                            alt=""></span>Payments<i
+                                        class="ri-arrow-drop-right-line dropdown-icon fs-2 "></i></a>
+                                <ul class="pt-3 d-none">
+                                    <li><a href="payment_received.html">Payment Received</a></li>
+                                    <li><a href="payment.html">My Payments</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#"><span class="user-data-icon span"><img src="./images/accredition.png"
+                                            alt=""></span>Online Accreditation</a>
+                            </li>
+                            <li>
+                                <a href="#"><span class="user-data-icon span"><img src="./images/certificate.png"
+                                            alt=""></span>Online
+                                    Certificate </a>
+                            </li>
+                            <li>
+                                <a href="#"><span class="user-data-icon span"><img src="./images/galle3ry.png"
+                                            alt=""></span>Gallery</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </aside>
+
+            <main class="bg-white">
+                <div class="edit-profile-heading d-flex justify-content-between px-5 w-100 align-items-center">
+                    <h3 class="text-white m-0">Coach Registration</h3>
+                    <p class="breadcrumb-admin fs-4 m-0">Member Registration Type / <span class="breadcrumb-span">Coach
+                            Registration</span></p>
+                </div>
+
+                <div class="coach-content p-4">
+                    <p>You can register your members from here to take part in any tournament which has been published
+                        at our portal.</p>
+                    <p class="fw-bold">Note: This is only a “Tournament Management Software” of SKL Global Sports USA
+                        not Organiser or
+                        Marchant of any events. By registration for this event you will become the direct customer of
+                        the event organizer or Marchant of this event. Please note that Event on this portal is always
+                        hosted by event organizer directly and SKL Global Sports USA does not act as a middleman or
+                        guarantee of quality or professionalism of the organizer. Complete rules & regulations are given
+                        below in attachment.</p>
+                </div>
+
+                <div class="container">
+                    <form action="#">
+                        <div class="row pt-5">
+                            <div class="col-6 px-3">
+                                <div>
+                                    <label for="">Event<span>*</span></label>
+                                    <select name="" id="" class="form-control my-3">
+                                        <option value="#" selected>--Select--</option>
+                                        <option value="#">Federation</option>
+                                        <option value="#">gff</option>
+                                        <option value="#">gff</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label for="">First Name<span>*</span></label>
+                                    <input type="text" class="form-control my-3" placeholder="First Name">
+                                </div>
+                                <div>
+                                    <label for="">Last Name<span>*</span></label>
+                                    <input type="text" class="form-control my-3" placeholder="Last Name">
+                                </div>
+                                <div>
+                                    <label for="">Gender<span>*</span></label>
+                                    <select name="" id="" class="form-control my-3">
+                                        <option value="#" selected>--Select--</option>
+                                        <option value="#">Male</option>
+                                        <option value="#">Female</option>
+                                        <option value="#">Both</option>
+                                    </select>
+                                </div>
+
+                                <div>
+                                    <label for="">Date Of Birth<span>*</span></label>
+                                    <input type="date" class="form-control my-3">
+                                </div>
+
+                                <div>
+                                    <label for="">Email<span>*</span></label>
+                                    <input type="email" class="form-control my-3" placeholder="Email">
+                                </div>
+
+                                <div>
+                                    <label for="">Phone<span>*</span></label>
+                                    <input type="number" class="form-control my-3" placeholder="+91-9350738027">
+                                </div>
+
+                                <div>
+                                    <label for="">Yours Level<span>*</span></label>
+                                    <select name="" id="" class="form-control my-3">
+                                        <option value="#" selected>--Select--</option>
+                                        <option value="#">Male</option>
+                                        <option value="#">Female</option>
+                                        <option value="#">Both</option>
+                                    </select>
+                                </div>
+
+                                <div>
+                                    <label for="">Upload Yours Diploma of Grade</label>
+                                    <input type="file" class="form-control mt-3 h-100 file-upload">
+                                    <small>One file only. 10 MB limit. Allowed types: png / gif / jpg / jpeg</small>
+                                </div>
+
+                                <div>
+                                    <label for="" class="pt-3">Work From<span>*</span></label>
+                                    <input type="text" class="form-control my-3" placeholder="">
+                                </div>
+
+                                <div>
+                                    <label for="">Coach Image<span>*</span></label>
+                                    <input type="file" class="form-control mt-3 h-100 file-upload">
+                                    <small>One file only. 10 MB limit. Allowed types: png / gif / jpg / jpeg</small>
+                                </div>
+                            </div>
+
+                            <div class="col-6 px-3">
+                                <div>
+                                    <label for="">Current Level<span>*</span></label>
+                                    <input type="number" class="form-control my-3" placeholder="">
+                                </div>
+                                <div>
+                                    <label for="">NF</label>
+                                    <input type="text" class="form-control my-3" placeholder="">
+                                </div>
+                                <div>
+                                    <label for="">IF’s</label>
+                                    <input type="text" class="form-control my-3" placeholder="">
+                                </div>
+
+                                <div>
+                                    <label for="">Type of Document<span>*</span></label>
+                                    <select name="" id="" class="form-control my-3">
+                                        <option value="#" selected>--Select Type of Document--</option>
+                                        <option value="#">Male</option>
+                                        <option value="#">Female</option>
+                                        <option value="#">Both</option>
+                                    </select>
+                                </div>
+
+                                <div>
+                                    <label for="">Number<span>*</span></label>
+                                    <input type="number" class="form-control my-3">
+                                </div>
+
+                                <div>
+                                    <label for="">Expiry Date <span class="text-secondary">(Required if Type of Document
+                                            is Passport)</span></label>
+                                    <input type="date" class="form-control my-3" placeholder="State">
+                                </div>
+                                <div>
+                                    <label for="">Nationality<span>*</span></label>
+                                    <select name="" id="" class="form-control my-3">
+                                        <option value="#" selected>--Select Country--</option>
+                                        <option value="#">Male</option>
+                                        <option value="#">Female</option>
+                                        <option value="#">Both</option>
+                                    </select>
+                                </div>
+
+                                <div>
+                                    <label for="">State<span>*</span></label>
+                                    <input type="text" class="form-control my-3">
+                                </div>
+
+                                <div>
+                                    <label for="">Passport upload /ID<span>*</span></label>
+                                    <input type="file" class="form-control mt-3 h-100 file-upload">
+                                    <small>One file only. 10 MB limit. Allowed types: png / gif / jpg / jpeg</small>
+                                </div>
+
+                                <div>
+                                    <label for="" class="pt-3">Work To<span>*</span></label>
+                                    <input type="text" class="form-control my-3">
+                                </div>
+                                <div>
+                                    <label for="" class="">Belong from which Team<span>*</span></label>
+                                    <input type="text" class="form-control my-3">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="d-flex py-5 justify-content-between">
+                            <div class="term-condition ">
+                                <a href="#" class="text-decoration-none  d-flex align-items-center d-inline-block"
+                                    data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    <input type="checkbox" name="" id="athele-checkbox">
+                                    <label for="" class="ms-2"> <span class="text-dark">I agree to</span> Terms and Conditions</a></label>
+                                </a>
+                            </div>
+
+                            <!-- terms and condition modal start-->
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-scrollable">
+                                    <div class="modal-content ">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title text-success" id="exampleModalLabel">Terms &
+                                                Conditions</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body p-5">
+                                            <h5>EDIT PROFILE</h5>
+                                            <p>Welcome to the Make my SportsEvents</p>
+                                            <ul>
+                                                <li>You can edit your profile and update on system. Don’t forget to push
+                                                    “Update”
+                                                    button after edit this form.</li>
+                                            </ul>
+
+                                            <h5>CHANGE YOUR PASSWORD</h5>
+                                            <p>Welcome to the Make my SportsEvents</p>
+                                            <ul>
+                                                <li>You can change your password any time to protect your account. Don’t
+                                                    forget to
+                                                    push “SAVE” button after change password.</li>
+                                            </ul>
+
+                                            <h5>SUBMIT YOUR BANK DETAILS</h5>
+                                            <ul>
+                                                <li>If you want to collect ATHELE/REFEREE/COACH registration Fee then
+                                                    you must
+                                                    submit yours bank details sothat we can transfer yours amount.</li>
+                                                <li>Note: This amount will be transferred to yours amount within 10 days
+                                                    of
+                                                    receiving payments.</li>
+                                                <li>If you submit wrong bank details in this case our company will not
+                                                    accept any
+                                                    claim for wrong information and its submission to wrong account. We
+                                                    will
+                                                    transfer amount in the same account whatever you will submit here.
+                                                </li>
+                                                <li>If you feel that you have submitted the wrong bank details, you
+                                                    should have
+                                                    immediately change.</li>
+                                            </ul>
+
+                                            <h5>REGISTRATION FORM</h5>
+                                            <ul>
+                                                <li>Athlete * Referee * Coach * Others</li>
+                                                <li>You can register your members from here to take part in any
+                                                    tournament which has
+                                                    been published at our portal.</li>
+                                                <li>Note: This is only a “Tournament Management Software” of SKL Global
+                                                    Sports USA
+                                                    not Organiser or Marchant of any events. By registration for this
+                                                    event you will
+                                                    become the direct customer of the event organizer or Marchant of
+                                                    this event.
+                                                    Please note that Event on this portal is always hosted by event
+                                                    organizer
+                                                    directly and SKL Global Sports USA does not act as a middleman or
+                                                    guarantee of
+                                                    quality or professionalism of the organizer. Complete rules &
+                                                    regulations are
+                                                    given below in attachment.</li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-success"  data-bs-dismiss="modal"
+                                                onclick="buttonable()">Accept</button>
+                                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal" onclick="buttondiasble()">Decline</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- terms and condition modal end-->
+
+
+                            <div class="update-btn text-end making-able">
+                                <button class="btn disabled">REGISTER</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </main>
+
+            <!-- footer start here -->
+            <div class="footer-section">
+                <section>
+                    <div class="footer-heading bg-secondary   w-100 text-center ">
+                        <div class="container  d-flex align-items-center justify-content-between  py-3">
+                            <a href="#"><img src="./footer-logo.png" alt="" class="img-fluid footer-logo"></a>
+                            <h2 class="text-white  m-0  py-3">A Professional Event Manangement Software.</h2>
+                            <a href="#"><img src="./SKL_Global_Sports_USA__1__page-0001-removebg-preview.png" alt=""
+                                    class="img-fluid footer-logo"></a>
+                        </div>
+                    </div>
+                </section>
+
+                <footer class="w-100 pt-5">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-4">
+                                <h3 class="text-white ">MMS is Product of: <br>
+                                    <span class="text-uppercase fw-bold fs-1">SKL Global Sports USA</span>
+                                </h3>
+                            </div>
+
+
+
+                            <div class="col-4 text-white px-2">
+                                <h3>Important Links</h3>
+                                <div class="pt-1">
+                                    <ul class="d-flex flex-column gap-2">
+                                        <li><a href="about.html" class="text-decoration-none text-white">About Us</a>
+                                        </li>
+                                        <li>Privacy Policy</li>
+                                        <li>Terms and Condition</li>
+                                        <li>Support</li>
+                                        <li>Cancelation</li>
+                                        <li>Refund Policy</li>
+                                    </ul>
+                                </div>
+
+                            </div>
+
+                            <div class="col-4 text-white ">
+                                <h3>Contact Us</h3>
+                                <div class="pt-1">
+                                    <p> US: 4400 Central Ave (415) Fremont-94536, CA, USA</p>
+                                    <p>India: 176/15 RAJ HOUSE, Laxmi Nagar, Meham Rd. Gohana-131301, Sonipat, Haryana
+                                    </p>
+                                    <p>Write Us: <a href="#" class="text-warning">info@makemyevents.org</a></p>
+                                </div>
+                                <!-- social media -->
+                                <div class="d-flex gap-4">
+                                    <a href="#" class="text-decoration-none text-white fs-2"><i
+                                            class="ri-facebook-fill"></i></a>
+                                    <a href="#" class="text-decoration-none text-white fs-2"><i
+                                            class="ri-twitter-line"></i></a>
+                                    <a href="#" class="text-decoration-none text-white fs-2"><i
+                                            class="ri-instagram-line"></i></a>
+                                    <a href="#" class="text-decoration-none text-white fs-2"><i
+                                            class="ri-youtube-line"></i></a>
+                                </div>
+                            </div>
+
+
+
+
+                        </div>
+
+                        <p class="text-white text-center pb-2 pt-3 m-0">© SKL Global Sports USA</p>
+                    </div>
+                </footer>
+            </div>
+        </section>
+
+
+
+        <!-- bootstrap js -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+
+        <script src="index.js"></script>
+    </body>
+</body>
+
+</html>
